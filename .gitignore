@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyo
+*.pyd
+
+# Local configuration file
+.idea/
+
+# Compiled Python files
+*.pyc
+
+# Python egg metadata
+*.egg-info/
+
+# Distribution / packaging
+dist/
+build/
+
+# Virtual environment
+venv/
