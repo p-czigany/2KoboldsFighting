@@ -1,8 +1,9 @@
 from combatant import Combatant
 
 
-class Kobold(Combatant):
+class Human(Combatant):
     def __init__(self):
         super().__init__()
-        self.current_hp = 6
+        super().__init__()
+        self.current_hp = 8
         self.damage = 2

@@ -1,7 +1,9 @@
+from human import Human
 from kobold import Kobold
 
 kobold1 = Kobold()
 kobold2 = Kobold()
+human1 = Human()
 
 # combatants = [kobold1, kobold2]
 
@@ -13,4 +15,5 @@ kobold2 = Kobold()
 # print()
 
 # kobold1.hit(kobold2)
-kobold1.fight(kobold2)
+# kobold1.fight(kobold2)
+kobold1.fight(human1)
