@@ -3,6 +3,7 @@ import time
 
 class Combatant:
     def __init__(self):
+        self.current_location = None
         self.damage = None
         self.current_hp = None
 
@@ -22,6 +23,9 @@ class Combatant:
         time.sleep(1)
 
     def fight(self, other):
+        if self.current_location != other.current_location:
+            print(f"{self} and {other} are not in the same location")
+            return
         print(f"{self} and {other} are fighting each other for their lives")
         time.sleep(2)
         round_index = 0
